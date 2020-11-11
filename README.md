@@ -10,7 +10,7 @@ In these systems we have a large number of orders which are served by one
 limited number of service points and distributors therefore the program implements
 mutual exclusion (with mutexes) and synchronization (with condition variables).
 
-##Usage
+## Usage
 
 ```
 gcc -Wall -pthread -o testPizza pizza.c pizza.h
