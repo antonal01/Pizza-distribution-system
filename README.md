@@ -2,9 +2,10 @@
  A simulation of a pizza ordering distribution system, with the use of the POSIX threads (pthread libraries) in C.
  
 The system implements mutual exclusion (with mutexes) and synchronization (with condition variables) to manage large
-numbers of orders with limited number of service points and distributors. 
+numbers of orders with a limited number of service points and distributors. 
  
 Each order corresponds to one thread.
+
 
 ## Usage
  The program accepts two parameters, the first parameter is the number of customers to
