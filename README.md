@@ -3,7 +3,9 @@
  
 The system implements mutual exclusion (with mutexes) and synchronization (with condition variables) to manage large
 numbers of orders with a limited number of service points and distributors. 
- 
+
+## Running process
+
 Each order corresponds to one thread.
 
 
