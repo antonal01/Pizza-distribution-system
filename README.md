@@ -19,8 +19,10 @@ Similarly, the thread checks the available number of distributors and in case of
 Once again, in case of unavailability the thread waits and repeats the procedure when it is signaled.
 
 Finally, when the distribution is over the thread releases a distributor.
-##### Note
-When we say
+
+##### Note :
+ The word "releases" refers to the use of the broadcasting signal for the rest of the awaiting threads.
+ The availability check is done using the corresponding mutex locks.
 
 ## Usage
  The program accepts two parameters, the first parameter is the number of customers to
