@@ -1,4 +1,4 @@
-# PizzaOrdering-distribution-system
+# Pizza Ordering distribution system
  A simulation of a pizza ordering distribution system, with the use of the POSIX threads (pthread libraries) in C.
  
 The system implements mutual exclusion (with mutexes) and synchronization (with condition variables) to manage large
