@@ -7,7 +7,7 @@ numbers of orders with a limited number of service points and distributors.
 ## Running process
 
 Each order corresponds to one thread.
-The cooks,ovens and the distributors mentioned below, are represented as numeric counters.
+The cooks, ovens and the distributors mentioned below, are represented as numeric counters.
 
 Each thread checks the available number of cooks and in case of availability, uses him.
 Otherwise, in case of unavailability the thread waits and repeats the procedure when it is signaled.
@@ -19,6 +19,8 @@ Similarly, the thread checks the available number of distributors and in case of
 Once again, in case of unavailability the thread waits and repeats the procedure when it is signaled.
 
 Finally, when the distribution is over the thread releases a distributor.
+### Note
+When we say
 
 ## Usage
  The program accepts two parameters, the first parameter is the number of customers to
