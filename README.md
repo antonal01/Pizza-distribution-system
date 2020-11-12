@@ -19,7 +19,7 @@ Similarly, the thread checks the available number of distributors and in case of
 Once again, in case of unavailability the thread waits and repeats the procedure when it is signaled.
 
 Finally, when the distribution is over the thread releases a distributor.
-### Note
+###### Note
 When we say
 
 ## Usage
