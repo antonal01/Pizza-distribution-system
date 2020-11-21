@@ -4,7 +4,7 @@ void* OrderThread(void* threadId) {
 	
     int* tid;
     unsigned int* ptr = &globalSeed;
-    int rc , numberOfPizzas = rand_r(ptr) % (5 + 1 - 1) + 1,             //6 // ((nOrderHigh +1 -nOrderLow) + nOrderlow)
+    int rc , numberOfPizzas = rand_r(ptr) % (5 + 1 - 1) + 1,             //6 //((nOrderHigh +1 -nOrderLow) + nOrderlow)
         tPrepTime = (numberOfPizzas * tPrep), tBakeTime = tBake;
     struct timespec start, finish, startGettingCold;
     double elapsed, elapsedCold;
